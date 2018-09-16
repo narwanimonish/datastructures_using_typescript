@@ -1,0 +1,13 @@
+"use strict";
+exports.__esModule = true;
+var stack_1 = require("./stack");
+var stack = new stack_1["default"]();
+stack.push(1);
+console.log(stack.length());
+stack.push(1);
+stack.push(1);
+stack.push(12);
+console.log(stack.length());
+console.log(stack.peek());
+console.log(stack.pop());
+console.log(stack.peek());
